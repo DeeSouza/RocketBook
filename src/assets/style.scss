@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&display=swap");
 
-$colorHeader: #4166b0;
+$colorBackHeader: #4166b0;
+$colorFontHeader: #fff;
 $colorBody: #e8eaed;
 $fontRoboto: "Roboto";
+$colorAuthor: #4e4e4e;
+$colorDate: #a2a2a2;
 
 body {
     margin: 0;
@@ -13,8 +16,8 @@ body {
 
 header {
     height: 50px;
-    background-color: $colorHeader;
-    color: #fff;
+    background-color: $colorBackHeader;
+    color: $colorFontHeader;
     font-size: 20px;
     display: flex;
     width: 100%;
@@ -31,9 +34,15 @@ header {
                 max-width: 600px;
                 margin: auto;
                 background-color: #fff;
-                margin: 20px auto;
+                margin: 30px auto 30px auto;
                 box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 12px -5px;
                 border-radius: 5px;
+                transition: all 0.25s ease-in-out;
+                transform: scale(1);
+
+                &:hover {
+                    transform: scale(1.005);
+                }
 
                 .post-header {
                     border-bottom: 1px solid #d0cece;
@@ -64,7 +73,7 @@ header {
 
                             h4 {
                                 margin: 0;
-                                color: #4e4e4e;
+                                color: $colorAuthor;
                                 font-weight: 600;
                                 font-size: 18px;
                                 text-overflow: clip;
@@ -76,7 +85,7 @@ header {
                                 margin: 0;
                                 margin-top: 5px;
                                 font-weight: 300;
-                                color: #a2a2a2;
+                                color: $colorDate;
                                 font-size: 14px;
                             }
                         }
