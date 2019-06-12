@@ -14,14 +14,6 @@ Criar uma página usando componentes do React para listagem de posts, estilo Fac
 
 ## Como Executar
 
-### Instalar e Executar Dependências do Projeto
-
-```js
-npm install
-
-npm run dev
-```
-
 ### Instalar e Executar Json Server
 
 ```js
@@ -29,3 +21,17 @@ npm install -g json-server
 
 json-server --watch db.json
 ```
+
+### Instalar e Dependências do Projeto
+
+```js
+npm install
+```
+
+### Executar Projeto
+
+```js
+npm run dev
+```
+
+Acessar http://localhost:8080
