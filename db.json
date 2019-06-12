@@ -1,7 +1,25 @@
 {
     "posts": [
-        { "id": 1, "text": "json-server", "author": "Diego Souza" },
-        { "id": 2, "text": "json-server", "author": "Diego Souza" },
-        { "id": 3, "text": "json-server", "author": "Diego Souza" }
+        {
+            "id": 1,
+            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur, labore culpa rerum et enim cumque debitis quia illum impedit consequuntur tenetur dolores excepturi ad repudiandae fugit ducimus sequi quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur, labore culpa rerum et enim cumque debitis quia illum impedit consequuntur tenetur dolores excepturi ad repudiandae fugit ducimus sequi quas?",
+            "author": "Diego Souza",
+            "date": "há 20 minutos",
+            "avatar": "https://ui-avatars.com/api/?name=Diego+Souza&font-size=0.33&rounded=true"
+        },
+        {
+            "id": 2,
+            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolor reiciendis, ut harum nam id! Quidem, labore delectus amet blanditiis sunt, exercitationem possimus molestiae neque recusandae earum suscipit. Consequatur, suscipit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolor reiciendis, ut harum nam id! Quidem, labore delectus amet blanditiis sunt, exercitationem possimus molestiae neque recusandae earum suscipit. Consequatur, suscipit.",
+            "author": "Jorge Santos",
+            "date": "há 25 minutos",
+            "avatar": "https://ui-avatars.com/api/?name=Jorge+Santos&font-size=0.33&rounded=true"
+        },
+        {
+            "id": 3,
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe beatae quas. Nam molestiae doloremque praesentium sit tempore nostrum? Optio numquam dicta odit facilis, excepturi maxime molestiae dolor aliquam quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe beatae quas. Nam molestiae doloremque praesentium sit tempore nostrum? Optio numquam dicta odit facilis, excepturi maxime molestiae dolor aliquam quaerat.",
+            "author": "Ronaldo Vieira",
+            "date": "há 28 minutos",
+            "avatar": "https://ui-avatars.com/api/?name=Ronaldo+Vieira&font-size=0.33&rounded=true"
+        }
     ]
 }

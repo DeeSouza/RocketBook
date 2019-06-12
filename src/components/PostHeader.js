@@ -1,11 +1,13 @@
 import React from "react";
 
-const PostHeader = props => (
+const PostHeader = ({ author, date, avatar }) => (
     <div className="post-header">
-        <div className="avatar"></div>
+        <div className="avatar">
+            <img src={avatar} alt={author} />
+        </div>
         <div className="author">
-            <h4>Diego Souza</h4>
-            <h6>Há 5 minutos</h6>
+            <h4>{author}</h4>
+            <h6>{date}</h6>
         </div>
     </div>
 );

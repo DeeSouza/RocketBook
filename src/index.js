@@ -15,16 +15,21 @@ class App extends Component {
 
     async componentDidMount() {
         const posts = await API.get("posts");
-        console.log(posts);
+
+        this.setState({
+            posts: posts.data
+        });
     }
 
     render() {
         return (
             <div id="wrapper">
-                <Header />
+                <Header item="oi" />
 
                 <div id="wrapper-post">
-                    <Post />
+                    {this.state.posts.map(item => (
+                        <Post key={item.id} item={item} />
+                    ))}
                 </div>
             </div>
         );

@@ -50,7 +50,13 @@ header {
                             width: 60px;
                             height: 60px;
                             border-radius: 50%;
-                            background-color: grey;
+                            background-color: transparent;
+                            overflow: hidden;
+
+                            img {
+                                width: 100%;
+                                border: none;
+                            }
                         }
 
                         &.author {
