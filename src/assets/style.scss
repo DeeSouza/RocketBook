@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&display=swap");
+
+$colorHeader: #4166b0;
+$colorBody: #e8eaed;
+$fontRoboto: "Roboto";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $colorBody;
+    font-family: $fontRoboto;
+}
+
+header {
+    height: 50px;
+    background-color: $colorHeader;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+#wrapper {
+    #wrapper-post {
+        div {
+            &.post {
+                width: 90%;
+                max-width: 600px;
+                margin: auto;
+                background-color: #fff;
+                margin: 20px auto;
+                box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 12px -5px;
+                border-radius: 5px;
+
+                .post-header {
+                    border-bottom: 1px solid #d0cece;
+                    width: 90%;
+                    margin: auto;
+                    padding: 15px 0px;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: stretch;
+                    align-items: center;
+
+                    div {
+                        &.avatar {
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 50%;
+                            background-color: grey;
+                        }
+
+                        &.author {
+                            margin-left: 15px;
+
+                            h4 {
+                                margin: 0;
+                                color: #4e4e4e;
+                                font-weight: 600;
+                                font-size: 18px;
+                                text-overflow: clip;
+                                overflow: hidden;
+                                white-space: nowrap;
+                            }
+
+                            h6 {
+                                margin: 0;
+                                margin-top: 5px;
+                                font-weight: 300;
+                                color: #a2a2a2;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+
+                .text-post {
+                    width: 90%;
+                    margin: auto;
+                    padding: 15px 0px;
+                    box-sizing: border-box;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
