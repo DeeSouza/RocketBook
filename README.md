@@ -6,11 +6,12 @@ Criar uma página usando componentes do React para listagem de posts, estilo Fac
 
 ## Tecnologias
 
-1. React
-2. Json Server API
-3. Babel
-4. Webpack
-5. SCSS
+1. NodeJs (10.15.3)
+2. React
+3. Json Server API
+4. Babel
+5. Webpack
+6. SCSS
 
 ## Como Executar
 
