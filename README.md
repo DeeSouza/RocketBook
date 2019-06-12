@@ -19,7 +19,11 @@ Criar uma página usando componentes do React para listagem de posts, estilo Fac
 
 ```js
 npm install -g json-server
+```
 
+Dentro da pasta do projeto executar o comando:
+
+```js
 json-server --watch db.json
 ```
 
