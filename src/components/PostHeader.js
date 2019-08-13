@@ -3,7 +3,7 @@ import React from "react";
 const PostHeader = ({ author, date, avatar }) => (
     <div className="post-header">
         <div className="avatar">
-            <img src={avatar} alt={author} />
+            <img src={`${avatar}/${author}`} alt={author} />
         </div>
         <div className="author">
             <h4>{author}</h4>

@@ -15,15 +15,28 @@ body {
 }
 
 header {
-    height: 50px;
     background-color: $colorBackHeader;
     color: $colorFontHeader;
     font-size: 20px;
-    display: flex;
     width: 100%;
-    align-items: center;
-    justify-content: center;
     font-weight: 400;
+
+    .header-container {
+        height: 50px;
+        padding: 0px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+
+        .title {
+            font-weight: 700;
+        }
+
+        .profile {
+            font-size: 14px;
+        }
+    }
 }
 
 #wrapper {
@@ -45,7 +58,6 @@ header {
                 }
 
                 .post-header {
-                    border-bottom: 1px solid #d0cece;
                     width: 90%;
                     margin: auto;
                     padding: 15px 0px;
@@ -56,8 +68,8 @@ header {
 
                     div {
                         &.avatar {
-                            width: 60px;
-                            height: 60px;
+                            width: 32px;
+                            height: 32px;
                             border-radius: 50%;
                             background-color: transparent;
                             overflow: hidden;
@@ -75,7 +87,7 @@ header {
                                 margin: 0;
                                 color: $colorAuthor;
                                 font-weight: 600;
-                                font-size: 18px;
+                                font-size: 14px;
                                 text-overflow: clip;
                                 overflow: hidden;
                                 white-space: nowrap;
@@ -86,7 +98,7 @@ header {
                                 margin-top: 5px;
                                 font-weight: 300;
                                 color: $colorDate;
-                                font-size: 14px;
+                                font-size: 11px;
                             }
                         }
                     }
@@ -97,7 +109,45 @@ header {
                     margin: auto;
                     padding: 15px 0px;
                     box-sizing: border-box;
-                    font-size: 16px;
+                    font-size: 14px;
+                }
+
+                .comments {
+                    border-top: 1px solid #e7e7e7;
+                    padding: 15px 10px;
+                    width: 90%;
+                    margin: auto;
+
+                    .comment {
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        margin-top: 10px;
+
+                        &:first-child {
+                            margin-top: 0;
+                        }
+
+                        .avatar {
+                            width: 20px;
+                            height: 20px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            min-width: 20px;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        .text {
+                            font-size: 13px;
+                            border-radius: 20px;
+                            background-color: #e0e0e0;
+                            padding: 10px 15px;
+                            margin-left: 10px;
+                        }
+                    }
                 }
             }
         }

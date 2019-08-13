@@ -5,21 +5,75 @@
             "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur, labore culpa rerum et enim cumque debitis quia illum impedit consequuntur tenetur dolores excepturi ad repudiandae fugit ducimus sequi quas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur, labore culpa rerum et enim cumque debitis quia illum impedit consequuntur tenetur dolores excepturi ad repudiandae fugit ducimus sequi quas?",
             "author": "Diego Souza",
             "date": "há 20 minutos",
-            "avatar": "https://ui-avatars.com/api/?name=Diego+Souza&font-size=0.33&rounded=true"
+            "avatar": "https://api.adorable.io/avatars/32",
+            "comments": [
+                {
+                    "id": 1,
+                    "author": {
+                        "name": "Júlio César",
+                        "avatar": "https://api.adorable.io/avatars/20"
+                    },
+                    "content": "Estou cada vez mais feliz por meu desempenho em ReactJS e NodeJS."
+                }
+            ]
         },
         {
             "id": 2,
-            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolor reiciendis, ut harum nam id! Quidem, labore delectus amet blanditiis sunt, exercitationem possimus molestiae neque recusandae earum suscipit. Consequatur, suscipit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolor reiciendis, ut harum nam id! Quidem, labore delectus amet blanditiis sunt, exercitationem possimus molestiae neque recusandae earum suscipit. Consequatur, suscipit.",
+            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
             "author": "Jorge Santos",
             "date": "há 25 minutos",
-            "avatar": "https://ui-avatars.com/api/?name=Jorge+Santos&font-size=0.33&rounded=true"
+            "avatar": "https://api.adorable.io/avatars/32",
+            "comments": [
+                {
+                    "id": 1,
+                    "author": {
+                        "name": "César Augusto",
+                        "avatar": "https://api.adorable.io/avatars/20"
+                    },
+                    "content": "Estou cada vez mais feliz por meu desempenho em ReactJS e NodeJS. E agora vou começar o ReactNative."
+                },
+                {
+                    "id": 1,
+                    "author": {
+                        "name": "Laura Borges",
+                        "avatar": "https://api.adorable.io/avatars/20"
+                    },
+                    "content": "Estou cada vez mais feliz por meu desempenho em ReactJS e NodeJS. E agora vou começar o ReactNative."
+                }
+            ]
         },
         {
             "id": 3,
-            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe beatae quas. Nam molestiae doloremque praesentium sit tempore nostrum? Optio numquam dicta odit facilis, excepturi maxime molestiae dolor aliquam quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe beatae quas. Nam molestiae doloremque praesentium sit tempore nostrum? Optio numquam dicta odit facilis, excepturi maxime molestiae dolor aliquam quaerat.",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe beatae quas. Nam molestiae doloremque praesentium sit tempore nostrum?",
             "author": "Ronaldo Vieira",
             "date": "há 28 minutos",
-            "avatar": "https://ui-avatars.com/api/?name=Ronaldo+Vieira&font-size=0.33&rounded=true"
+            "avatar": "https://api.adorable.io/avatars/32",
+            "comments": [
+                {
+                    "id": 1,
+                    "author": {
+                        "name": "Tony Stark",
+                        "avatar": "https://api.adorable.io/avatars/20"
+                    },
+                    "content": "Estou cada vez mais feliz por meu desempenho em ReactJS e NodeJS."
+                },
+                {
+                    "id": 1,
+                    "author": {
+                        "name": "João Gustavo",
+                        "avatar": "https://api.adorable.io/avatars/20"
+                    },
+                    "content": "Estou cada vez mais feliz por meu desempenho em ReactJS e NodeJS. E agora vou começar o ReactNative."
+                },
+                {
+                    "id": 1,
+                    "author": {
+                        "name": "Marcelo Júnios",
+                        "avatar": "https://api.adorable.io/avatars/20"
+                    },
+                    "content": "Estou cada vez mais feliz por meu desempenho em ReactJS e NodeJS. E agora vou começar o ReactNative. Agora preciso estudar mais para me aprofundar no conceito."
+                }
+            ]
         }
     ]
 }
